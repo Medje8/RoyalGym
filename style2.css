@@ -89,5 +89,14 @@ a{
 			width:300px;
 			height:300px;
 }
-
+#teretana{
+	font-weight:bold;
+	color: red;
+	animation: blink 2s linear infinite;
+}
+@keyframes blink{
+	0%{opacity: 0;}
+	50%{opacity: 0.5;}
+	100%{opacity: 1;}
+}
 
